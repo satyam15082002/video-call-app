@@ -1,0 +1,54 @@
+.container
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container button
+{
+    border-radius: 50%;
+    margin:0rem  .5rem ;
+    border: none;
+    font-size: 1.2rem;
+}
+.icon
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    box-shadow: 0px 0px 5px 1px black;
+    padding: 1.5rem;
+}
+.micOn
+{
+    background-image: url(/public/assets/mic-on.svg);
+}
+.micOff
+{
+    background-image: url(/public/assets/mic-off.svg);
+    background-color: red;
+}
+.videoOn
+{
+    background-image: url(/public/assets/video-on.svg);
+}
+.videoOff
+{
+    background-image: url(/public/assets/video-off.svg);
+    background-color: red;
+
+}
+.callEnd
+{
+    background-image: url(/public/assets/call-end.svg);
+    color: white;
+    background-color: lightcoral;
+}
+.icon:hover
+{
+    filter: brightness(150%) ;
+}

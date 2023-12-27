@@ -1,0 +1,57 @@
+.card
+{
+    background: radial-gradient(rgb(0, 157, 255),rgb(0, 255, 140));
+
+    width: 800px;
+    max-width: 95%;
+    box-shadow: 0px 0px 7px 1px black ;
+    margin: 20px auto;
+    height: 150px;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.card .cardHeader
+{
+    flex: 1;
+    padding: .5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .cardFooter
+{
+    display: flex;
+    gap: 2px;
+}
+.card .cardFooter> *
+{
+    padding: .2rem .1rem;
+    box-shadow: 0px 0px 5px 0px black;
+    flex: 1;
+}
+.card .cardFooter> *:hover
+{
+    background: black;
+    color: white;
+}
+.card .cardFooter> a
+{
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: black;
+}
+.card .cardFooter button
+{
+    letter-spacing: .1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: black;
+    border: none;
+    background: transparent;
+}
+
